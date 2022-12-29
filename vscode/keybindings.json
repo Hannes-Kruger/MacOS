@@ -1,0 +1,74 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f5",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "\\$this->"
+        }
+    },
+    {
+        "key": "f6",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "'$1' => "
+        }
+    },
+    {
+        "key": "f13",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "public function $1()\n{\n\n}\n"
+        }
+    },
+    {
+        "key": "f14",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "private function $1()\n{\n\n}\n"
+        }
+    },
+    {
+        "key": "f15",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "public \\$$1;"
+        }
+    },
+    {
+        "key": "f16",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "protected \\$$1;"
+        }
+    },
+    {
+        "key": "f17",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "pint\u000D" }
+    },
+    {
+        "key": "f18",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "\n\ndd($1);\n\n"
+        }
+    },
+    {
+        "key": "f19",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "f19",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    }
+]
